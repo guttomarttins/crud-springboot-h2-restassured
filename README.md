@@ -1,5 +1,7 @@
 # crud-springboot-h2-restassured
-Exemplo simples de um CRUD utilizando linguagem Java para o desenvolvimento e os frameworks Spring boot para a criação de api a ser testada, H2 como banco de dados em memória e Rest Assured para realização dos testes unitários
+Teste unitário com Rest Assured
+Este exemplo simples é apenas para demonstrar como pode ser simples, rápido e prático utilizar Rest Assured para testar sua API. 
+Neste exemplo foi criado um simples CRUD utilizando linguagem Java versão 17 para o desenvolvimento e os frameworks Spring boot 2.1.17 para a criação de api a ser testada, H2 como banco de dados em memória e finalmente Rest Assured para realização dos testes unitários.
 
 ## Documentação da API
 
@@ -32,8 +34,70 @@ Exemplo simples de um CRUD utilizando linguagem Java para o desenvolvimento e os
 
 ## Screenshots
 
-![Test Order 1](https://)
-![Test Order 1](https://)
+![Test Order 1](https://raw.githubusercontent.com/guttomarttins/crud-springboot-h2-restassured/main/print01.png)
+![Test Order 1](https://raw.githubusercontent.com/guttomarttins/crud-springboot-h2-restassured/main/print02.png)
+
+## Melhorias
+
+Após esse ponta pé inicial, apenas para demonstrar como é possível realizar seus testes unitários com a api `Rest Assured`, você pode evoluir esse simples exemplo para uma utilização mais elaborada.
+
+## Outras informações
+
+- Java 17
+- Maven
+- spring boot 2.1.17
+- lombok
+- H2
+- spring boot data jpa
+- spring boot devtools
+- spring boot test
+- Rest Assured 5.1.1
+- hamcrest
+
+## Dependências Maven
+
+```javascript
+<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>spring-mock-mvc</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest</artifactId>
+		</dependency>
+	</dependencies>
+```
 
 ## Referências
 
