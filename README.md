@@ -29,3 +29,16 @@ Exemplo simples de um CRUD utilizando linguagem Java para o desenvolvimento e os
 | `marca` | `string` | Informe a marca do produto|
 | `valor` | `number` | Informe o valor do produto|
 | `validade` | `string` | Informe a validade do produto|
+
+## Screenshots
+
+![Test Order 1](https://)
+![Test Order 1](https://)
+
+## Referências
+
+ - [REST Assured](https://rest-assured.io/)
+ - [Spring Boot](https://spring.io/projects/spring-boot/)
+ - [Spring Initializr](https://start.spring.io/)
+ - [H2 Database Engine](https://h2database.com/html/main.html)
+
