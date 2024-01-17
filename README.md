@@ -1,6 +1,6 @@
 # Como testar sua API Spring Boot com Rest Assured
 Abaixo vamos ver como realizar testes unitários com Rest Assured.
-Este exemplo simples é apenas para demonstrar como pode ser simples, rápido e prático utilizar Rest Assured para testar sua API. 
+Este exemplo é apenas para demonstrar como pode ser simples, rápido e prático utilizar Rest Assured para testar sua API. 
 Neste exemplo foi criado um simples CRUD utilizando linguagem Java versão 17 para o desenvolvimento e os frameworks Spring boot 2.1.17 para a criação de api a ser testada, H2 como banco de dados em memória e finalmente Rest Assured para realização dos testes unitários.
 
 ## Documentação da API
