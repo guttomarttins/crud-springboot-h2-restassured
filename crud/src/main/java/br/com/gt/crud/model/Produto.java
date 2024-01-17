@@ -1,13 +1,11 @@
 package br.com.gt.crud.model;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.io.Serializable;
+import javax.persistence.*;
 import java.math.BigDecimal;
-import java.time.LocalDate;
 
 @AllArgsConstructor
 @Getter
@@ -27,6 +25,8 @@ public class Produto {
     @Column(name="VALOR")
     private BigDecimal valor;
     @Column(name = "VALIDADE")
-    private LocalDate validade;
+    private String validade;
 
+    public Produto() {
+    }
 }
