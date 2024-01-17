@@ -39,7 +39,7 @@ Neste exemplo foi criado um simples CRUD utilizando linguagem Java versão 17 pa
 
 ## Melhorias
 
-Após esse ponta pé inicial, apenas para demonstrar como é possível realizar seus testes unitários com a api `Rest Assured`, você pode evoluir esse simples exemplo para uma utilização mais elaborada.
+Após esse ponta pé inicial, apenas para demonstrar como é possível realizar seus testes unitários com a framework `Rest Assured`, você pode evoluir esse simples exemplo para uma utilização mais elaborada.
 
 ## Outras informações
 
